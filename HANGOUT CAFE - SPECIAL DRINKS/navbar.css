@@ -1,0 +1,56 @@
+header {
+    background-color: #E1D9CF;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 2rem;
+}
+
+nav .logo span {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #081A48
+}
+
+nav .menu {
+    list-style-type: none;
+    display: flex;
+    list-style: none;
+}
+
+nav .menu li {
+    margin-left: 25px;
+}
+
+nav .menu li a {
+    font-size: 1.20rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #081A48
+    
+}
+
+.cart-icon img {
+    margin-left: 25px;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
